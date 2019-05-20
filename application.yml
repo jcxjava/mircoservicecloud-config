@@ -1,0 +1,15 @@
+# 注意，该文件务必已utf-8的格式保存
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev # 开发环境
+  application:
+    name: mircoservicecloud-config-jiangcx-dev
+---
+spring:
+  profiles: test # 测试环境
+  application:
+    name: mircoservicecloud-config-jiangcx-test
